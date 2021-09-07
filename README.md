@@ -196,6 +196,27 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanmeanors`][@stdlib/stats/base/dnanmeanors]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/stats/base/dsmeanors`][@stdlib/stats/base/dsmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation and returning an extended precision result.
+-   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.
+-   [`@stdlib/stats/base/nanmeanors`][@stdlib/stats/base/nanmeanors]: calculate the arithmetic mean of a strided array, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using extended accumulation.
+-   [`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -256,6 +277,22 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors
+
+[@stdlib/stats/base/dsmeanors]: https://github.com/stdlib-js/stats-base-dsmeanors
+
+[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats-base-dsnanmean
+
+[@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats-base-nanmeanors
+
+[@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats-base-sdsnanmean
+
+[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors
+
+<!-- </related-links> -->
 
 </section>
 
