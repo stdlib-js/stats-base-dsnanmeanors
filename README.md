@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dsnanmeanors;
+})();
 })();
 </script>
 ```
@@ -189,6 +191,7 @@ var v = dsnanmeanors.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dsnanmeanors@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -206,6 +209,7 @@ console.log( x );
 var v = dsnanmeanors( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -312,23 +316,23 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors/tree/umd
+[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors/tree/umd/tree/umd
 
-[@stdlib/stats/base/dsmeanors]: https://github.com/stdlib-js/stats-base-dsmeanors/tree/umd
+[@stdlib/stats/base/dsmeanors]: https://github.com/stdlib-js/stats-base-dsmeanors/tree/umd/tree/umd
 
-[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats-base-dsnanmean/tree/umd
+[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats-base-dsnanmean/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats-base-nanmeanors/tree/umd
+[@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats-base-nanmeanors/tree/umd/tree/umd
 
-[@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats-base-sdsnanmean/tree/umd
+[@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats-base-sdsnanmean/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors/tree/umd
+[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
