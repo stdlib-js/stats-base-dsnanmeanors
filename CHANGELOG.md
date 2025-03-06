@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-14)
+## Unreleased (2025-03-06)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e644a6e`](https://github.com/stdlib-js/stdlib/commit/e644a6ef491f282b46a90b668090533ea9b002b6) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`f70e622`](https://github.com/stdlib-js/stdlib/commit/f70e6223dfc766d41092bc0039379c94f3b34681) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanors` [(#4397)](https://github.com/stdlib-js/stdlib/pull/4397) _(by Neeraj Pathak, Aayush Khanna)_
 -   [`ab0e174`](https://github.com/stdlib-js/stdlib/commit/ab0e1746d6647e725fb2126e6fe78d1892970b6d) - **refactor:** update `stats/base/dsnanmeanors` native addon from C++ to C [(#4865)](https://github.com/stdlib-js/stdlib/pull/4865) _(by Prashant Kumar Yadav)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
